@@ -1,0 +1,517 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #F3F5FC;
+}
+
+header .navbar-brand {
+  font-size: 18px;
+}
+
+header .navbar-nav {
+  gap: 1rem;
+}
+
+header .btn-header {
+  padding: 1rem 2rem;
+  font-size: 18px;
+  border-radius: 39px;
+  font-weight: 500;
+  border: none;
+}
+
+header .btn-sign-in {
+  background-color: transparent;
+  color: #315BC7;
+}
+
+header .btn-sign-in:hover {
+  background-color: transparent;
+  color: #4b73d9;
+}
+
+header .btn-register {
+  background-color: #315BC7;
+  color: #fff;
+}
+
+header .btn-register:hover {
+  background-color: #4b73d9;
+  color: #fff;
+}
+
+.section-jumbotron {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.section-jumbotron .content-text .btn-discount {
+  border: none;
+  padding: 8px 16px;
+  color: #F44336;
+  background-color: #FFEBEE;
+  font-size: 14px;
+  border-radius: 40px;
+}
+
+.section-jumbotron .content-text .btn-discount img {
+  margin-right: 16px;
+}
+
+.section-jumbotron .content-text h1 {
+  font-size: 2.7rem;
+  overflow-wrap: anywhere;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.section-jumbotron .content-text p {
+  overflow-wrap: anywhere;
+  font-size: 1rem;
+  color: #0A1329;
+  opacity: 55%;
+  line-height: 30px;
+}
+
+.section-jumbotron .content-text .btn-get-now {
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 43px;
+  background-color: #315BC7;
+  color: #fff;
+  border-radius: 35px;
+}
+
+.section-content {
+  margin-top: 120px;
+}
+
+.section-content .content {
+  position: relative;
+  z-index: 1;
+  height: 710px;
+  text-align: center;
+  padding: 120px 30px 0 30px;
+}
+
+.section-content .content::after {
+  content: "";
+  position: absolute;
+  z-index: 3;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3394491586) 0%, rgba(156, 156, 156, 0.1741830521) 100%);
+}
+
+.section-content .content img {
+  position: absolute;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  z-index: 3;
+  width: 100%;
+  height: 710px;
+  top: 0;
+  right: 0;
+}
+
+.section-content .content .text {
+  position: relative;
+  z-index: 4;
+}
+
+.section-content .content .text h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 35px;
+}
+
+.section-content .content .text p {
+  font-size: 26px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.section-content .content .text p b {
+  font-weight: 700;
+}
+
+.section-benefit {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.section-benefit .header-benefit h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.section-benefit .header-benefit p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+  opacity: 55%;
+  line-height: 30px;
+}
+
+.section-benefit .specification-benefit h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.section-benefit .specification-benefit span {
+  font-size: 18px;
+  color: #000;
+  opacity: 55%;
+}
+
+.section-benefit .image-benefit {
+  text-align: center;
+}
+
+.section-benefit .image-benefit img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: 468px;
+  width: 100%;
+}
+
+.section-video {
+  background-color: #fff;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.section-video h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.section-video .content-video {
+  position: relative;
+  margin-top: 40px;
+}
+
+.section-video .content-video .video {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.section-video .content-video .play-button {
+  position: absolute;
+  width: 61px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-product {
+  padding-top: 70px;
+  background-color: #fff;
+  padding-bottom: 70px;
+}
+
+.section-product .product-text {
+  text-align: center;
+}
+
+.section-product .product-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.section-product .product-text p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+  opacity: 55%;
+  line-height: 30px;
+}
+
+.section-product .content-product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.section-product .content-product .card {
+  border-radius: 20px;
+  max-width: 470px;
+}
+
+.section-product .content-product .card .card-img-top {
+  border-radius: 40px;
+}
+
+.section-product .content-product .card .card-body {
+  text-align: center;
+}
+
+.section-product .content-product .card .card-body h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.section-product .content-product .card .card-body h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.section-product .content-product .card .card-body p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  opacity: 55%;
+}
+
+.section-product .content-product .card .card-footer {
+  margin-bottom: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+.section-product .content-product .btn-get-now {
+  border: none;
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 43px;
+  background-color: #315BC7;
+  color: #fff;
+  border-radius: 35px;
+}
+
+.section-testimonial {
+  padding-top: 70px;
+}
+
+.section-testimonial .header-testimonial h1 {
+  font-size: 48px;
+}
+
+.section-testimonial .card {
+  max-width: 370px;
+  border-radius: 10px;
+}
+
+.section-testimonial .card .avatar-profile h5 {
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.section-testimonial .card .avatar-profile p {
+  font-size: 16px;
+}
+
+.section-footer {
+  background-color: #0A1329;
+  color: #fff;
+}
+
+.section-footer .footer-brand h2 {
+  font-size: 22px;
+}
+
+.section-footer p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.section-footer .footer-content h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-footer .footer-content li {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+@media (min-width: 992px) {
+  header .navbar-nav {
+    gap: 2.5rem;
+  }
+
+  .section-jumbotron {
+    padding-top: 60px;
+  }
+
+  .section-jumbotron .content-text .btn-discount {
+    font-size: 16px;
+  }
+
+  .section-jumbotron .content-text h1 {
+    font-size: 3.5rem;
+    line-height: 80px;
+    margin-bottom: 26px;
+  }
+
+  .section-jumbotron .content-text p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .section-jumbotron .content-text .btn-get-now {
+    margin-top: 55px !important;
+    font-size: 18px;
+    padding: 18px 45px;
+  }
+
+  .section-jumbotron .container-md {
+    position: relative;
+  }
+
+  .section-jumbotron .container-md .img-drone-jumbotron {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+    display: inline-block;
+    margin-right: -100px;
+  }
+
+  .section-benefit {
+    padding-top: 100px;
+  }
+
+  .section-benefit .header-benefit h1 {
+    font-size: 46px;
+  }
+
+  .section-benefit .header-benefit p {
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  .section-benefit .specification-benefit h1 {
+    font-size: 34px;
+  }
+
+  .section-benefit .specification-benefit span {
+    font-size: 20px;
+  }
+
+  .section-video {
+    padding-top: 100px;
+    background-color: #fff;
+  }
+
+  .section-video h1 {
+    font-size: 46px;
+    font-weight: 600;
+  }
+
+  .section-product .product-text h1 {
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  .section-product .product-text p {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .section-product .content-product {
+    gap: 30px;
+  }
+
+  .section-product .content-product .card {
+    max-width: 400px;
+  }
+
+  .section-product .content-product .card .card-body {
+    text-align: center;
+  }
+
+  .section-product .content-product .card .card-body h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .section-product .content-product .card .card-body h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .section-product .content-product .card .card-body p {
+    font-size: 20px;
+  }
+
+  .section-product .content-product .card .card-footer {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .section-product .content-product .btn-get-now {
+    font-size: 18px;
+    display: inline;
+    padding: 18px 45px;
+    margin: 0 auto;
+  }
+
+  .section-testimonial {
+    padding-top: 120px;
+  }
+
+  .section-testimonial .header-testimonial {
+    padding-bottom: 70px !important;
+  }
+
+  .section-testimonial .header-testimonial h1 {
+    font-size: 62px;
+    font-weight: bold;
+  }
+
+  .section-testimonial .card {
+    max-width: 370px;
+  }
+
+  .section-testimonial .card .avatar-profile h5 {
+    font-size: 20px;
+  }
+
+  .section-testimonial .card .avatar-profile p {
+    font-size: 18px;
+  }
+
+  .section-footer .footer-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .section-footer .footer-brand h2 {
+    font-size: 26px;
+  }
+
+  .section-footer p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+  }
+
+  .section-footer .footer-content li {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
