@@ -1,2 +1,111 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rozha+One&display=swap");/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rozha+One&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar .navbar-brand {
+  font-family: "Rozha One", serif;
+  font-size: 24px;
+}
+.navbar .nav-item {
+  font-weight: 600;
+  color: #938071;
+}
+.navbar .nav-item:hover,
+.navbar .nav-item .active {
+  color: #887567;
+}
+.navbar .btn-download {
+  border-radius: 25px;
+  background-color: #F3EDE9;
+  border: 1px solid #938071;
+  color: #938071;
+}
+.navbar .btn-download:hover {
+  background-color: #e8ded7;
+  color: #938071;
+}
+
+.section-jumbotron {
+  height: 50vh;
+}
+.section-jumbotron .content-text h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #000;
+  line-height: 44px;
+}
+.section-jumbotron .content-text h1 span {
+  color: #AFA798;
+}
+.section-jumbotron .content-text p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #1B1C22;
+  line-height: 22px;
+}
+.section-jumbotron .content-text .btn-see-more {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 15px;
+  color: #938071;
+  background-color: #F3EDE9;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+.section-jumbotron .content-text .btn-see-more:hover {
+  background-color: #ece4de;
+  color: #938071;
+}
+
+.section-services .wrap-box {
+  gap: 25px;
+}
+.section-services .box-1 {
+  gap: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.section-services .box-1 .img-box-1 {
+  width: 180px;
+  height: 180px;
+}
+.section-services .box-2 .img-box-2 {
+  width: 180px;
+  height: 100%;
+}
+.section-services .services-text h1 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #000;
+}
+.section-services .services-text h1 span {
+  color: #AFA798;
+}
+.section-services .services-text p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+  line-height: 22px;
+}
+.section-services .services-text .list {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+  list-style: none;
+  position: relative;
+}
+.section-services .services-text .list .item-list:before {
+  position: absolute;
+  content: "";
+  border: 5px solid #AFA798;
+  border-radius: 50%;
+  left: 10px;
+  display: inline-block;
+  margin-top: 8px;
+}/*# sourceMappingURL=style.css.map */

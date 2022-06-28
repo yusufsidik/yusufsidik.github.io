@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
 $cream: #F3EDE9;
 $titlecream: #AFA798;
@@ -8,3 +8,140 @@ $opensans: 'Open Sans',
 sans-serif;
 $rozhaone: 'Rozha One',
 serif;
+
+body {
+  font-family: $opensans;
+}
+
+// mobile version ==============
+// navbar
+.navbar {
+  .navbar-brand {
+    font-family: $rozhaone;
+    font-size: 24px;
+  }
+
+  .nav-item {
+    font-weight: 600;
+    color: $textcream;
+
+    &:hover,
+    .active {
+      color: #887567;
+    }
+  }
+
+  .btn-download {
+    border-radius: 25px;
+    background-color: $cream;
+    border: 1px solid $textcream;
+    color: $textcream;
+
+    &:hover {
+      background-color: #e8ded7;
+      color: $textcream;
+    }
+  }
+}
+
+.section-jumbotron {
+  height: 50vh;
+
+  .content-text {
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #000;
+      line-height: 44px;
+
+      span {
+        color: $titlecream;
+      }
+    }
+
+    p {
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-weight: 400;
+      color: #1B1C22;
+      line-height: 22px;
+    }
+
+    .btn-see-more {
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 10px 15px;
+      color: $textcream;
+      background-color: $cream;
+      font-size: 1rem;
+      border-radius: 10px;
+
+      &:hover {
+        background-color: #ece4de;
+        color: $textcream;
+      }
+    }
+  }
+}
+
+.section-services {
+  .wrap-box {
+    gap: 25px;
+  }
+
+  .box-1 {
+    gap: 25px;
+    object-fit: cover;
+    object-position: center;
+
+    .img-box-1 {
+      width: 180px;
+      height: 180px;
+    }
+  }
+
+  .box-2 {
+    .img-box-2 {
+      width: 180px;
+      height: 100%;
+    }
+  }
+
+  .services-text {
+    h1 {
+      font-size: 34px;
+      font-weight: 700;
+      color: #000;
+
+      span {
+        color: $titlecream;
+      }
+    }
+
+    p {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #000;
+      line-height: 22px;
+    }
+
+    .list {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #000;
+      list-style: none;
+      position: relative;
+
+      .item-list:before {
+        position: absolute;
+        content: '';
+        border: 5px solid $titlecream;
+        border-radius: 50%;
+        left: 10px;
+        display: inline-block;
+        margin-top: 8px;
+      }
+    }
+  }
+}
