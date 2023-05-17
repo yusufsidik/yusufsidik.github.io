@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/omah/static/css/main.2d13f4ae.css",
+    "main.js": "/omah/static/js/main.c516c4ee.js",
+    "static/js/787.20a72807.chunk.js": "/omah/static/js/787.20a72807.chunk.js",
+    "index.html": "/omah/index.html",
+    "main.2d13f4ae.css.map": "/omah/static/css/main.2d13f4ae.css.map",
+    "main.c516c4ee.js.map": "/omah/static/js/main.c516c4ee.js.map",
+    "787.20a72807.chunk.js.map": "/omah/static/js/787.20a72807.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d13f4ae.css",
+    "static/js/main.c516c4ee.js"
+  ]
+}
