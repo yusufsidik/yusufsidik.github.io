@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/edufree/static/css/main.96c5cde1.css",
+    "main.js": "/edufree/static/js/main.fddb29c4.js",
+    "static/js/787.d5d84253.chunk.js": "/edufree/static/js/787.d5d84253.chunk.js",
+    "static/media/bg-1.png": "/edufree/static/media/bg-1.97e712a1de835fb4d35e.png",
+    "index.html": "/edufree/index.html",
+    "main.96c5cde1.css.map": "/edufree/static/css/main.96c5cde1.css.map",
+    "main.fddb29c4.js.map": "/edufree/static/js/main.fddb29c4.js.map",
+    "787.d5d84253.chunk.js.map": "/edufree/static/js/787.d5d84253.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96c5cde1.css",
+    "static/js/main.fddb29c4.js"
+  ]
+}
